@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Avaliação disciplina automação de teste de software</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="cadastro-alunos">Cadastro de alunos</h1>
+    <form>
+        <input type="text" id="nome" name="nome" placeholder="Nome" required/> <br>
+        <input type="text" id="ra" name="ra" placeholder="RA" required/><br>
+        <label for="data-nascimento">Data de nascimento</label><br>
+
+        <select name="dia" id="dia" required>
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+            <option value="4">5</option>
+            <option value="5">6</option>
+            <option value="6">7</option>
+            <option value="7">8</option>
+            <option value="8">9</option>
+            <option value="9">10</option>
+            <option value="10">11</option>
+            <option value="11">12</option>
+            <option value="12">13</option>
+            <option value="13">14</option>
+            <option value="14">15</option>
+            <option value="15">16</option>
+            <option value="16">17</option>
+            <option value="17">18</option>
+            <option value="18">19</option>
+            <option value="19">20</option>
+            <option value="20">21</option>
+            <option value="21">22</option>
+            <option value="22">23</option>
+            <option value="23">24</option>
+            <option value="24">25</option>
+            <option value="25">26</option>
+            <option value="26">27</option>
+            <option value="27">28</option>
+            <option value="28">29</option>
+            <option value="29">30</option>
+            <option value="30">31</option>
+        </select> <br>
+
+        <select name="mes" id="mes" required>
+            <option value="0">Janeiro</option>
+            <option value="1">Fevereiro</option>
+            <option value="2">Março</option>
+            <option value="3">Abril</option>
+            <option value="4">Maio</option>
+            <option value="5">Junho</option>
+            <option value="6">Julho</option>
+            <option value="7">Agosto</option>
+            <option value="8">Setembro</option>
+            <option value="9">Outubro</option>
+            <option value="10">Novembro</option>
+            <option value="11">Dezembro</option>
+        </select> <br>
+
+        <select name="ano" id="ano" required>
+            <option value="0">1950</option>
+            <option value="1">1951</option>
+            <option value="2">1952</option>
+            <option value="3">1953</option>
+            <option value="4">1954</option>
+            <option value="5">1955</option>
+            <option value="6">1956</option>
+            <option value="7">1957</option>
+            <option value="8">1958</option>
+            <option value="9">1959</option>
+            <option value="10">1960</option>
+            <option value="11">1961</option>
+            <option value="12">1962</option>
+            <option value="13">1963</option>
+            <option value="14">1964</option>
+            <option value="15">1965</option>
+            <option value="16">1966</option>
+            <option value="17">1967</option>
+            <option value="18">1968</option>
+            <option value="19">1969</option>
+            <option value="20">1970</option>
+            <option value="21">1971</option>
+            <option value="22">1972</option>
+            <option value="23">1973</option>
+            <option value="24">1974</option>
+            <option value="25">1975</option>
+            <option value="26">1976</option>
+            <option value="27">1977</option>
+            <option value="28">1978</option>
+            <option value="28">1978</option>
+            <option value="28">1978</option>
+            <option value="29">1979</option>
+            <option value="30">1980</option>
+            <option value="31">1981</option>
+            <option value="32">1982</option>
+            <option value="33">1983</option>
+            <option value="34">1984</option>
+            <option value="35">1985</option>
+            <option value="36">1986</option>
+            <option value="37">1987</option>
+            <option value="38">1988</option>
+            <option value="39">1989</option>
+            <option value="40">1990</option>
+            <option value="41">1991</option>
+            <option value="42">1992</option>
+            <option value="43">1993</option>
+            <option value="44">1994</option>
+            <option value="45">1995</option>
+            <option value="46">1996</option>
+            <option value="47">1997</option>
+            <option value="48">1998</option>
+            <option value="49">1999</option>
+            <option value="50">2000</option>
+            <option value="51">2001</option>
+            <option value="52">2002</option>
+            <option value="53">2003</option>
+            <option value="54">2004</option>
+            <option value="55">2005</option>
+            <option value="56">2006</option>
+            <option value="57">2007</option>
+            <option value="58">2008</option>
+
+        </select> <br>
+
+        <p>Selecione o curso:</p>
+            <input type="radio" id="ads" name="curso" value="ads">
+            <label for="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas</label><br>
+            <input type="radio" id="si" name="curso" value="si">
+            <label for="Sistemas da Informação">Sistemas da Informação</label><br>
+        </select> <br>
+
+        <label for="avaliacao">Deixe sua avaliação</label><br>
+        <select name="opcoes-avaliacao" id="avaliacao" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select> <br>
+
+        <input type="text" id="sugestoes" name="sugestoes" placeholder="Sugestões de melhoria próximas turmas" required/> <br>
+
+        <textarea name="observacoes" rows="10" cols="50" placeholder="Observações"></textarea><br>
+
+        <button type="submit" class="botao-feedback">Enviar feedback</button>
+    </form>
+</body>
+</html>
